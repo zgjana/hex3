@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - ZGJANA CAR HEX EDIT 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ZGJANA CAR HEX EDIT 2</h1>
+                <p>Advanced Vehicle ECU Editing Software</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="documentation.html" class="active">Documentation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="documentation-main">
+        <div class="container">
+            <h2>ZGJANA CAR HEX EDIT 2 Documentation</h2>
+            <p class="subtitle">Learn how to use all features of our ECU editing software</p>
+            
+            <div class="doc-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="getting-started">Getting Started</button>
+                    <button class="tab-btn" data-tab="user-guide">User Guide</button>
+                    <button class="tab-btn" data-tab="tutorials">Tutorials</button>
+                    <button class="tab-btn" data-tab="faq">FAQ</button>
+                    <button class="tab-btn" data-tab="api">API Reference</button>
+                </div>
+                
+                <div class="tab-content active" id="getting-started">
+                    <h3>Getting Started with ZGJANA CAR HEX EDIT 2</h3>
+                    <div class="doc-section">
+                        <h4>Installation</h4>
+                        <ol>
+                            <li>Download the appropriate version for your system from our <a href="download.html">download page</a></li>
+                            <li>Run the installer executable</li>
+                            <li>Follow the on-screen instructions</li>
+                            <li>Launch the application after installation completes</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="doc-section">
+                        <h4>First Run Configuration</h4>
+                        <p>When you first run ZGJANA CAR HEX EDIT 2, you'll be prompted to:</p>
+                        <ul>
+                            <li>Select your preferred language</li>
+                            <li>Choose a default workspace directory</li>
+                            <li>Configure basic editor settings (font, colors, etc.)</li>
+                            <li>Register your license if you have one</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="doc-section">
+                        <h4>Basic Workflow</h4>
+                        <p>The typical workflow for working with ECU files:</p>
+                        <ol>
+                            <li>Open your ECU file (File → Open)</li>
+                            <li>Analyze the file structure</li>
+                            <li>Make necessary modifications</li>
+                            <li>Verify checksums</li>
+                            <li>Save your changes</li>
+                            <li>Write the modified file back to the ECU</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="user-guide">
+                    <h3>User Guide</h3>
+                    <div class="doc-section">
+                        <h4>Main Interface Overview</h4>
+                        <img src="images/interface-overview.png" alt="Interface Overview" class="doc-image">
+                        <p>The main interface consists of:</p>
+                        <ol>
+                            <li><strong>Menu Bar:</strong> Access to all application functions</li>
+                            <li><strong>Toolbar:</strong> Quick access to common tools</li>
+                            <li><strong>Hex Editor:</strong> Primary workspace for byte editing</li>
+                            <li><strong>Structure Panel:</strong> Displays file structure and detected maps</li>
+                            <li><strong>Status Bar:</strong> Shows current position and file information</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="doc-section">
+                        <h4>Working with ECU Files</h4>
+                        <h5>Opening Files</h5>
+                        <p>To open an ECU file:</p>
+                        <ol>
+                            <li>Select File → Open from the menu</li>
+                            <li>Navigate to your file location</li>
+                            <li>Select the file and click Open</li>
+                        </ol>
+                        
+                        <h5>Saving Files</h5>
+                        <p>To save your changes:</p>
+                        <ol>
+                            <li>Select File → Save to overwrite the original file</li>
+                            <li>Or File → Save As to create a new file</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="doc-section">
+                        <h4>Advanced Features</h4>
+                        <h5>Map Visualization</h5>
+                        <p>To visualize ECU maps:</p>
+                        <ol>
+                            <li>Right-click in the Structure Panel</li>
+                            <li>Select "Detect Maps" or load a map definition</li>
+                            <li>Double-click on a detected map to visualize it</li>
+                        </ol>
+                        
+                        <h5>Checksum Tools</h5>
+                        <p>To verify or repair checksums:</p>
+                        <ol>
+                            <li>Select Tools → Checksum</li>
+                            <li>Choose the appropriate checksum algorithm</li>
+                            <li>Click "Verify" to check or "Repair" to fix</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="tutorials">
+                    <h3>Tutorials</h3>
+                    <div class="tutorial-grid">
+                        <div class="tutorial-card">
+                            <h4>Basic ECU Modification</h4>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/example1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p>Learn how to perform basic modifications to an ECU file, including changing fuel maps and rev limits.</p>
+                        </div>
+                        
+                        <div class="tutorial-card">
+                            <h4>Advanced Map Editing</h4>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/example2" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p>Explore advanced techniques for working with 2D and 3D maps in ECU files.</p>
+                        </div>
+                        
+                        <div class="tutorial-card">
+                            <h4>Checksum Repair</h4>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/example3" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p>Step-by-step guide to verifying and repairing checksums in modified ECU files.</p>
+                        </div>
+                        
+                        <div class="tutorial-card">
+                            <h4>Scripting Basics</h4>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/example4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p>Introduction to automating tasks with the built-in scripting engine.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="faq">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-item">
+                        <h4>What file formats does ZGJANA CAR HEX EDIT 2 support?</h4>
+                        <p>The software supports binary files (.bin), Intel HEX (.hex), Motorola S-Record (.srec), and several other common formats used in ECU programming.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Can I use this software with any vehicle?</h4>
+                        <p>While ZGJANA CAR HEX EDIT 2 works with many vehicles, compatibility depends on the specific ECU. We provide definitions for common ECUs, and you can create custom definitions for others.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Is there a mobile version available?</h4>
+                        <p>Currently, ZGJANA CAR HEX EDIT 2 is only available for Windows desktop. We may develop mobile versions in the future.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>How do I update the software?</h4>
+                        <p>You can check for updates from the Help menu. If an update is available, you'll be prompted to download and install it.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>What's the difference between Standard and Professional editions?</h4>
+                        <p>The Professional edition includes advanced features like scripting, plugin support, batch processing, and priority technical support.</p>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="api">
+                    <h3>API Reference</h3>
+                    <div class="doc-section">
+                        <h4>Scripting API</h4>
+                        <p>The Professional edition includes a powerful scripting API that allows you to automate tasks and extend functionality.</p>
+                        
+                        <h5>Basic Script Structure</h5>
+                        <pre><code>// Sample script to modify fuel map values
+function main() {
+    // Open the active file
+    var file = editor.getActiveFile();
+    
+    // Get the fuel map
+    var fuelMap = file.getMap("Fuel");
+    
+    // Increase all values by 5%
+    for (var i = 0; i < fuelMap.rowCount; i++) {
+        for (var j = 0; j < fuelMap.colCount; j++) {
+            var value = fuelMap.getValue(i, j);
+            fuelMap.setValue(i, j, value * 1.05);
+        }
+    }
+    
+    // Update checksum
+    file.updateChecksum();
+    
+    // Save changes
+    file.save();
+}</code></pre>
+                    </div>
+                    
+                    <div class="doc-section">
+                        <h4>Plugin API</h4>
+                        <p>You can create custom plugins to add new functionality to ZGJANA CAR HEX EDIT 2.</p>
+                        
+                        <h5>Basic Plugin Structure</h5>
+                        <pre><code>// Sample plugin definition
+class MyPlugin {
+    constructor() {
+        this.name = "My Custom Plugin";
+        this.version = "1.0";
+    }
+    
+    init(editor) {
+        // Register menu items
+        editor.addMenuItem("Tools/My Plugin", () => this.run());
+    }
+    
+    run() {
+        // Plugin functionality
+        editor.showMessage("My Plugin is running!");
+    }
+}
+
+// Register the plugin
+editor.registerPlugin(new MyPlugin());</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ZGJANA CAR HEX EDIT 2. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
